@@ -1,0 +1,95 @@
+body{
+    background-color: #de2222cc;
+ }
+ 
+ h1{
+     font-size: 54px;
+     text-transform: capitalize;
+     text-align: center;
+     background-color: #f9f909cc;
+ }
+ 
+ h2{
+     font-size: 54px;
+     text-transform: capitalize;
+     text-align: center;
+ }
+ 
+ h3 {
+    font-size: 38px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #0c0c0d;
+    background-color: #f9f909cc;
+ }
+ 
+ .img.css {
+   display: flex; 
+   align-items: center; 
+   justify-content: center;
+ }
+   
+ p {
+   text-transform: capitalize;
+   text-align: center;
+ }
+ 
+ * {
+     box-sizing: border-box;
+   }
+   
+   .menu {
+     float: left;
+     width: 20%;
+     text-align: center;
+   }
+   
+   .menu a {
+     background-color: #e5e5e5;
+     padding: 8px;
+     margin-top: 7px;
+     display: block;
+     width: 100%;
+     color: black;
+   }
+   
+   .main {
+     float: left;
+     width: 60%;
+     padding: 0 20px;
+   }
+   
+   .right {
+     background-color: #e5e5e5;
+     float: left;
+     width: 20%;
+     padding: 15px;
+     margin-top: 7px;
+     text-align: center;
+   }
+ 
+   @media only screen and (max-width: 620px) 
+     /* For mobile phones: */
+     .menu, .main, .right {
+       width: 100%;
+     }
+ 
+     /* unvisited link */
+ a:link {
+   color: #FF0000;
+ }
+ 
+ /* visited link */
+ a:visited {
+   color: #ff0099;
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color: #00ff1e;
+ }
+ 
+ /* selected link */
+ a:active {
+   color: #0000FF;
+ }
